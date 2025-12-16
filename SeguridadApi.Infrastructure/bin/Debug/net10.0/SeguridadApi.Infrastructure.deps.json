@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SeguridadApi.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SeguridadApi.Application": "1.0.0",
+          "SeguridadApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SeguridadApi.Infrastructure.dll": {}
+        }
+      },
+      "SeguridadApi.Application/1.0.0": {
+        "dependencies": {
+          "SeguridadApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SeguridadApi.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SeguridadApi.Domain/1.0.0": {
+        "runtime": {
+          "SeguridadApi.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SeguridadApi.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SeguridadApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SeguridadApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\bin\Debug\net10.0\SeguridadApi.Application.deps.json
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\bin\Debug\net10.0\SeguridadApi.Application.dll
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\bin\Debug\net10.0\SeguridadApi.Application.pdb
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\bin\Debug\net10.0\SeguridadApi.Domain.dll
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\bin\Debug\net10.0\SeguridadApi.Domain.pdb
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\Segurida.2E953FF4.Up2Date
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.dll
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\refint\SeguridadApi.Application.dll
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\SeguridadApi.Application.pdb
+C:\Users\USUARIO\Downloads\Mi_base_de_datos\SeguridadApi.Application\obj\Debug\net10.0\ref\SeguridadApi.Application.dll

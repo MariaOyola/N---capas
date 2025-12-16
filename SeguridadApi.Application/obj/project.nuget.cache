@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aoqGnf4Ttuc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\Downloads\\Mi_base_de_datos\\SeguridadApi.Application\\SeguridadApi.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
