@@ -1,4 +1,3 @@
-using System.Formats.Asn1;
 using Microsoft.EntityFrameworkCore;
 using SeguridadApi.Domain;
 using SeguridadApi.Infrastructure.Persistence;
@@ -40,11 +39,11 @@ namespace SeguridadApi.Infrastructure.Repositories
             var sesion_Usuario = await _context.Sesion_Usuarios.FindAsync(SesionID); 
 
             if (sesion_Usuario == null)
-            {
+            return; 
+        
                 _context.Sesion_Usuarios.Remove(sesion_Usuario); 
                 await _context.SaveChangesAsync(); 
             }
         }
 
-    }
 }

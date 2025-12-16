@@ -54,18 +54,21 @@ public class SeguridadDbContext : DbContext //  DbContext es la que  conecta la 
 
     // -- RELACION DE MUCHOS A MUCHOS ( ROL_PERMISO)
       
-           modelBuilder.Entity<Rol_Permiso>(). 
-           HasOne(rp => new {rp.RolID, rp.PermisoID});  //HasOne(rp => new {rp.RolID, rp.PermisoID});  indica que tiene una relacion de muchos a muchos con (Roles) y ( Permisos)
+           modelBuilder.Entity<Rol_Permiso>()
+           .HasKey(rp => new { rp.RolID, rp.PermisoID });
+ //HasOne(rp => new {rp.RolID, rp.PermisoID});  indica que tiene una relacion de muchos a muchos con (Roles) y ( Permisos)
            
            modelBuilder.Entity<Rol_Permiso>()
-           .HasOne(rp => rp.Roles)  //  este indica que cada registro de (Roles_permisos) tiene un Roles. 
-           .WithMany(r => r.Rol_Permisos) // un  (Roles) puede puede tener muchos registros de (Rol_permisos)
-           .HasForeignKey (rp => rp.RolID);  //  este indica que la la columna (RolID) en (Rol_permisos) es la clave FORANEA que apunta a (Roles)
-        
-            modelBuilder.Entity<Rol_Permiso>().   
-            HasOne(rp => rp.Permisos)       
+           .HasOne(rp => rp.Roles)
+           .WithMany(r => r.Rol_Permisos)
+           .HasForeignKey(rp => rp.RolID);
+
+           modelBuilder.Entity<Rol_Permiso>()
+           .HasOne(rp => rp.Permisos)
             .WithMany(p => p.Rol_Permisos)
-            .HasPrincipalKey (rp => rp.PermisoID); 
+           .HasForeignKey(rp => rp.PermisoID);
+
+           
 
  // RELACION DE UNO A MUCHOS CON  (Usuario -- Auditoria )
 

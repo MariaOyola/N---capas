@@ -13,7 +13,7 @@ namespace SeguridadApi.Infrastructure.Repositories
         {
             _context = context;
         }
-        public async Task<Log_Errores> GetLogAsync(int errorID)
+        public async Task<Log_Errores> GetLog_ErroresAsync (int errorID)
         {
             return await _context.Log_Errores
                 .FirstOrDefaultAsync(le => le.ErrorID == errorID);
