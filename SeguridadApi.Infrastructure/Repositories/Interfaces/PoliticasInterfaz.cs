@@ -7,7 +7,7 @@ namespace SeguridadApi.Infrastructure.Repositories.Interfaces
 {
     public interface PoliticasInterfaz
     {
-    Task<Politicas_Contraseñas> GetPoliticas_ContraseñasAsync(int politicaID);
+    Task<Politicas_Contraseñas> GetPoliticas_ContraseñasAsync(int PoliticaID);
     Task<IEnumerable<Politicas_Contraseñas>> GetAllAsyn();
 
     Task AddAsync(Politicas_Contraseñas politica);

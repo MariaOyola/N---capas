@@ -13,10 +13,10 @@ namespace SeguridadApi.Infrastructure.Repositories
         {
             _context = context;
         }
-        public async Task<Politicas_Contraseñas> GetPoliticas_ContraseñasAsync(int politicaID)
+        public async Task<Politicas_Contraseñas> GetPoliticas_ContraseñasAsync(int PoliticaID)
         {
             return await _context.Politicas_Contraseñas
-                .FirstOrDefaultAsync(p => p.PoliticaID == politicaID);
+                .FirstOrDefaultAsync(p => p.PoliticaID == PoliticaID);
         }
         public async Task<IEnumerable<Politicas_Contraseñas>> GetAllAsyn()
         {
