@@ -5,7 +5,7 @@ using SeguridadApi.Infrastructure.Repositories.Interfaces;
 
 namespace SeguridadApi.Infrastructure.Repositories
 {
-    public class PermisosRepository
+    public class PermisosRepository : PermisosInterfaz
     {
         private readonly SeguridadDbContext  _context; 
         public PermisosRepository (SeguridadDbContext context)
@@ -16,7 +16,7 @@ namespace SeguridadApi.Infrastructure.Repositories
         {
             return await _context.Permisos.FirstOrDefaultAsync(p => p.PermisoID == PermisoID); 
         }
-        public async Task<IEnumerable<Permisos>> GetPermisosAsync()
+        public async Task<IEnumerable<Permisos>>  GetAllAsync ()
         {
             return await _context.Permisos.ToListAsync(); 
         }

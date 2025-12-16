@@ -6,7 +6,7 @@ namespace SeguridadApi.Infrastructure.Repositories.Interfaces
 {
     public interface AuditoriaInterfaz
     {
-        Task<Auditoria>GetAuditoriaAsync (int RolID); 
+        Task<Auditoria>GetAuditoriaAsync (int AuditoriaID); 
         Task<IEnumerable<Auditoria>> GetAllAsync (); 
         Task AddAsync (Auditoria auditoria); 
         Task UpdateAsync (Auditoria auditoria); 

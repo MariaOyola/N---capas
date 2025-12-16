@@ -43,10 +43,9 @@ namespace SeguridadApi.Infrastructure.Repositories
             var auditoria = await _context.Auditorias.FindAsync(AuditoriaID); // busca por id 
 
             if (auditoria == null) // si existe - lo elimina 
-            {
+                return; 
                 _context.Auditorias.Remove(auditoria);  // guarda el cambio ( dato ya eliminado)
                 await _context.SaveChangesAsync();
             }
             }
     }
-}
